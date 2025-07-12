@@ -27,6 +27,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   /*background-position: bottom center;*/
+  background-size: 100%;
   background-attachment: scroll;
   font-family: sans-serif;
   color: #333;
