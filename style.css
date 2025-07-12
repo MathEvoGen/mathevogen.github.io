@@ -24,8 +24,8 @@ body {
   /*min-height: 177vw;*/
   background-image: url("20241027_155129_%28c%29_in_metadata.jpg");
   background-repeat: no-repeat;
-  /*background-position: top center;*/
-  background-position: bottom center;
+  background-position: top center;
+  /*background-position: bottom center;*/
   background-attachment: scroll;
   font-family: sans-serif;
   color: #333;
