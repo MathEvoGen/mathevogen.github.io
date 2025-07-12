@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<div id="nav-placeholder"></div>
+<div id="nav"></div>
 
 <main>
   <h1>Welcome to MathEvoGen</h1>
@@ -21,7 +21,7 @@
   fetch('nav.html')
     .then(response => response.text())
     .then(data => {
-      document.getElementById('nav-placeholder').innerHTML = data;
+      document.getElementById('nav').innerHTML = data;
     });
 </script>
 
