@@ -19,10 +19,15 @@ nav a:hover {
 }
 
 body {
-  font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
+  background-image: url("20241027_155129_(c)_in_metadata.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  background-attachment: scroll;
+  font-family: sans-serif;
+  background: #f9f9f9; /* fallback color if background image is not loaded */
   color: #333;
 }
 
