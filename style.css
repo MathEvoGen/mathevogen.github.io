@@ -20,7 +20,8 @@ nav a:hover {
 body {
   margin: 0;
   padding: 0;
-  width: 100vw;
+  width: 100%;
+  /*width: 100vw;*/
   /*min-height: 177vw;*/
   background-image: url("20241027_155129_%28c%29_in_metadata.jpg");
   background-repeat: no-repeat;
