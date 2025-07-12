@@ -59,7 +59,7 @@ a:active {
   text-decoration: underline;
 }
 
-pub a:link {
+pub a {
   color: black;
   background-color: transparent;
   text-decoration: none;
