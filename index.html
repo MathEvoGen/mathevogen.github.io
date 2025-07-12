@@ -8,14 +8,7 @@
 </head>
 <body>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="people.html">People</a>
-  <a href="research.html">Research</a>
-  <a href="publications.html">Publications</a>
-  <a href="genes-in-space.html">Project ‘Genes in Space’</a>
-  <a href="positions.html">Positions</a>
-</nav>
+<div id="nav-placeholder"></div>
 
 <main>
   <h1>Welcome to MathEvoGen</h1>
@@ -23,4 +16,13 @@
 </main>
 
 </body>
+
+<script>
+  fetch('nav.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('nav-placeholder').innerHTML = data;
+    });
+</script>
+
 </html>
