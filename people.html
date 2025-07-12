@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MathEvoGen: People</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="nav"></div>
+
+<main>
+  <h1>People</h1>
+  <p> </a href="https://mathematik.univie.ac.at/en/about-us/staff/?api_pkey=110430&api_task=member_details&api_lang=en#"></a>Himani Sachdeva</a> </p>
+</main>
+
+</body>
+
+<script>
+  fetch('nav.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('nav').innerHTML = data;
+    });
+</script>
+
+</html>
