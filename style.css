@@ -1,3 +1,22 @@
+nav {
+  background: #004080;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -6,45 +25,10 @@ body {
   color: #333;
 }
 
-nav {
-  background: #004080;
-  padding: 10px;
-  text-align: center;   /* <-- centers inline or inline-block elements */
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
 main {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
   background: white;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
-}
-
-nav {
-  background: #004080;
-  padding: 15px;
-  text-align: center;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
-  display: inline-block;
-}
-
-nav a:hover {
-  text-decoration: underline;
 }
