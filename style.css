@@ -27,7 +27,6 @@ body {
   background-size: contain;
   background-attachment: scroll;
   font-family: sans-serif;
-  background: #f9f9f9; /* fallback color if background image is not loaded */
   color: #333;
 }
 
