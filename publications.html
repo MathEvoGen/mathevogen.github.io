@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MathEvoGen: Publications</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="nav"></div>
+
+<main>
+  <h1>Publications</h1>
+  <p> <a href="https://scholar.google.com/citations?user=9RoZQsIAAAAJ&hl=en"> On Google Scholar </a> </p>
+</main>
+
+</body>
+
+<script>
+  fetch('nav.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('nav').innerHTML = data;
+    });
+</script>
+
+</html>
