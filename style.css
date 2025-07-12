@@ -21,6 +21,7 @@ nav a:hover {
 body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
   background-image: url("20241027_155129_%28c%29_in_metadata.jpg");
   background-repeat: no-repeat;
   background-position: top center;
