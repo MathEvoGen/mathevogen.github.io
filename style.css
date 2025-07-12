@@ -29,3 +29,21 @@ main {
   background: white;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
+
+nav {
+  background: #004080;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
