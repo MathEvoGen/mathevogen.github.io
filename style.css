@@ -59,20 +59,20 @@ a:active {
   text-decoration: underline;
 }
 
-pub a {
+main #pub a {
   color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
 
-pub a:hover {
+main #pub a:hover {
   color: black;
   background-color: transparent;
   text-decoration: underline;
 }
 
-pub a:active {
+main #pub a:active {
   color: black;
   background-color: transparent;
   text-decoration: underline;
