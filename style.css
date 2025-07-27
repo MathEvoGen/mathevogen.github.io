@@ -74,7 +74,7 @@ nav a:hover {
 }
 
 nav a.active {
-  color: red;
+  color: lightskyblue;
   text-decoration: none;
   font-weight: bold;
 }
