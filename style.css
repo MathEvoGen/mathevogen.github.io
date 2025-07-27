@@ -1,7 +1,7 @@
 body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  margin: auto;
+  padding: auto;
+  width: auto;
   /*width: 100vw;*/
   /*min-height: 177vw;*/
   background-image: url("20241027_155129_%28c%29_in_metadata.jpg");
@@ -15,10 +15,10 @@ body {
 }
 
 main {
-  width: 100%;
+  width: auto;
   max-width: 900px;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
   /*margin: 20px auto;*/
   /*padding: 20px;*/
   background: white;
