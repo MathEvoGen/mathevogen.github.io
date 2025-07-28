@@ -29,7 +29,7 @@ a:link,
 a:hover,
 a:active,
 a:visited {
-  color: blue;
+  color: DarkBlue;
   background-color: transparent;
   text-decoration: underline;
 }
